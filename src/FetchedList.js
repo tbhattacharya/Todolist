@@ -3,7 +3,7 @@ import { ToDoList } from './ToDoList';
 
 const mapStateToProps = state => {
     return {
-        todoList: state
+        todoList: state.addItem
     }
   }
 

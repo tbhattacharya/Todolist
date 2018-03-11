@@ -4,6 +4,8 @@ import './App.css';
 import { ToDoList } from './ToDoList';
 import FetchedList from './FetchedList';
 import AddToList from './AddToList';
+import { WeatherComp } from './Weather';
+
 
 class App extends Component {
   todos = [{
@@ -27,6 +29,7 @@ class App extends Component {
         </header>
         <FetchedList />
         <AddToList />
+        <WeatherComp />
       </div>
     );
   }
